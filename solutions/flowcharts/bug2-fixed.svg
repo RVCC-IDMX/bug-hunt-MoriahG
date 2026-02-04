@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="419" height="351" shape-rendering="optimizeSpeed">
+                
+            <g>
+                <rect x="50" y="80" width="81.2" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"/>
+                    
+                <line x1="60" y1="80" x2="60" y2="110" style="fill:#a5d6a7; stroke:#444; stroke-width:1"/>
+                <line x1="121.19999999999999" y1="80" x2="121.19999999999999" y2="110" style="fill:#a5d6a7; stroke:#444; stroke-width:1"/>
+             
+                <title>Main</title>
+            <text x="75" y="100" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="75" y="100">Main</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="87" y="128.5" width="295.2" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"/>
+                   <title>output "Enter your score (0-100):"</title>
+            <text x="102" y="148.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="148.5">output "Enter your score (0-100):"</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="87" y="177" width="115.8" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"/>
+                   <title>input score</title>
+            <text x="102" y="197" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="197">input score</tspan>
+            </text>
+                   
+                   
+                </g><g>
+            <rect x="117" y="240.5" width="145.8" height="30" rx="3" ry="3" style="fill:#ce93d8; stroke:#444; stroke-width:1"/>                
+            <polygon points="87,255.5 117,225.5 147,255.5 117,285.5" style="fill:#ce93d8; stroke:#444; stroke-width:1"/>
+            <title>score &gt;= 90</title>
+            <text x="162" y="260.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="162" y="260.5">score &gt;= 90</tspan>
+            </text>
+            
+            <text x="109.2" y="260.5" font-family="monospace" font-size="13" fill="#222">if</text> <text x="124.8" y="287.45" font-family="monospace" font-size="13" fill="#222">+</text> 
+        </g>
+                <g>
+                   <rect x="137" y="295.5" width="256.2" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"/>
+                   <title>output "Grade: A - Excellent"</title>
+            <text x="152" y="315.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="152" y="315.5">output "Grade: A - Excellent"</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+               <rect x="25" y="13.75" width="84" height="24" style="fill:#fff59d; stroke:#444; stroke-width:1"/>
+               <circle cx="25" cy="25" r="15" style="fill:#fff59d; stroke:#444; stroke-width:1"/>
+               <title>start</title>
+            <text x="55" y="30" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="55" y="30">start</tspan>
+            </text>
+            </g>
+            <g>
+               <path d="M25, 40 L25 91 Q25 95&#10;                29 95&#10;                L42 95 " style="fill:none; stroke:#444; stroke-width:1"/>
+               <path d="M42, 92 L50, 95 L42, 98 Z" fill="#333"/>
+            </g>
+            <g>
+               <path d="M68.5, 110 L68.5 139.5 Q68.5 143.5&#10;                72.5 143.5&#10;                L79 143.5 " style="fill:none; stroke:#444; stroke-width:1"/>
+               <path d="M79, 140.5 L87, 143.5 L79, 146.5 Z" fill="#333"/>
+            </g>
+            <g>
+               <path d="M68.5, 110 L68.5 188 Q68.5 192&#10;                72.5 192&#10;                L79 192 " style="fill:none; stroke:#444; stroke-width:1"/>
+               <path d="M79, 189 L87, 192 L79, 195 Z" fill="#333"/>
+            </g>
+            <g>
+               <path d="M68.5, 110 L68.5 251.5 Q68.5 255.5&#10;                72.5 255.5&#10;                L79 255.5 " style="fill:none; stroke:#444; stroke-width:1"/>
+               <path d="M79, 252.5 L87, 255.5 L79, 258.5 Z" fill="#333"/>
+            </g>
+            <g>
+               <path d="M117, 285.5 L117 306.5 Q117 310.5&#10;                121 310.5&#10;                L129 310.5 " style="fill:none; stroke:#444; stroke-width:1"/>
+               <path d="M129, 307.5 L137, 310.5 L129, 313.5 Z" fill="#333"/>
+            </g>
+            </svg>

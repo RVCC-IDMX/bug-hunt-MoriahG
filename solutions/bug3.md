@@ -4,29 +4,39 @@
 
 | Step | usersGreeted | usersGreeted < 3 | Action |
 | ---- | ------------ | ---------------- | ------ |
-|      |              |                  |        |
-|      |              |                  |        |
-|      |              |                  |        |
-|      |              |                  |        |
+| 1    | 0            | true             | DISPLAY "What is your name?", INPUT userName, DISPLAY "Hello, " + userName + "!" |
+| 2    | 0            | true             | DISPLAY "What is your name?", INPUT userName, DISPLAY "Hello, " + userName + "!"       |
+| 3..  | 0            | true             | DISPLAY "What is your name?", INPUT userName, DISPLAY "Hello, " + userName + "!"       |
 
 ## What's wrong
+
+An infinite loop is created because the variable used for the condition is never incremented within the loop, so usersGreeted remains 0 and the condition stays true.
 
 ## Fixed pseudocode
 
 ```pseudo
+BEGIN
+    SET usersGreeted TO 0
 
+    WHILE usersGreeted < 3 DO
+        DISPLAY "What is your name?"
+        INPUT userName
+        DISPLAY "Hello, " + userName + "!"
+		SET usersGreeted TO usersGreeted + 1
+    END WHILE
+
+    DISPLAY "All users have been greeted!"
+END
 ```
 
 ## Warning for future students
 
-Write a 3-4 sentence warning that would help a future student avoid this type of bug. What should they always check before saying their loop is finished?
+Warn you, I must: Infinite loops, a coder's trap they are. Always check, you should, that your loop's condition will one day be false. Change the variables inside your loop, you must, or forever it will run. Finished, your loop is not, until the exit you can clearly see!
 
-For fun, you may choose the voice of your warning: HAP, Grace, Prof. Teeters, or a character of your choosing. Feel free to have an AI assistant help with this.
+**Voice chosen:** Yoda
 
-**Voice chosen:**
-
-**Used AI assistant (yes/no):**
+**Used AI assistant (yes/no):** Yes, GitHub Copilot GPT-4.1
 
 ## Flowchart
 
-Download your fixed flowchart and save it as `flowcharts/bug3-fixed.svg`
+`flowcharts/bug3-fixed.svg`
